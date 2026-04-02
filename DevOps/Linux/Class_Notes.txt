@@ -1,0 +1,184 @@
+		
+#########################
+Day - 3 | 2nd Apr. 2026
+#########################	
+		
+		Environments :
+		
+			Non-Production												Production Environment
+
+				- Dev Environment
+				
+				- Build Environment
+				
+				- Test 
+					QA Environment
+					
+					UAT Environment			------------------>				Production Servers
+
+
+
+		Tools :::
+
+			- Open-Source DevOps 
+				- git/github/jenkins/docker/kubernetes/ansible/terraform/prometheus/grafana
+				
+			- Managed Services 
+				- AWS 	- CodeBuild/CodeDeploy/CodePipelines
+				- Azure - Azure DevOps Services 
+				- GCP  	- Devops Services 
+
+		- DevOps Architect/Consultant:
+			- Detailed DevOps Assessment
+		
+	Fundamentals of Linux :::	
+
+	-> Linux on Devops Perspective :::
+	
+		Overview of Linux
+		Linux Architecture
+		Linux Distributions
+		Basic Linux Commands
+		File Permission Management
+		User Creation
+		Shell Scripts
+		SSH(Remote Server Access) and VI Utility		
+	
+	Working with Linux :
+
+	Lab Pre-requisites ::::
+		
+		- Install Linux ::
+		
+			Avail AWS Free-Tier Account :::
+				https://docs.aws.amazon.com/accounts/latest/reference/manage-acct-creating.html
+	
+	Steps: 
+		
+		- Create Github Account 
+		
+		- Create AWS Free Tier Account 
+		
+		- Login to AWS Console using root email_id 
+		
+		- Create EC2 Instances - Linux Virtual Machines(VM)
+	
+		- How to Connect to EC2 Instances :
+		
+			- EC2 Instance Connect Option 
+			
+			- Mac/Linux User -- Use the Terminal to SSH Connect 
+			
+			- Window User -- SSH Agents 
+				- MobaXTerm: 
+				
+				
+	Overview  of Linux :
+	
+	Fundamentals of Operating System :
+	
+		- Windows/Linux/Mac
+		
+	What is an Operating System?
+		- It is an Interface between the user Application and the underlying Hardware.
+		
+	Why Linux?
+		- Open-Source 
+		- Is Secured 
+		- Linux OS was created based on the Unix Operating System 
+		- Is an interface between the user applications and underlying Hardware.
+		- Linux OS is based on the Command User Interface
+		- Core of Linux OS is called kernel!
+			Components of Linux OS Architecture
+				- Networking 
+				- Storage 
+				- IPC - Inter Process Communication
+				- User Management 
+				- Security Management 
+				- Control Groups 
+				- Namespace 
+				- Process 
+
+	On DevOps Perspective :
+	
+		- Package(Software Application) Management 
+		- File Management
+		- User Management
+		- Access Management 
+		- Remote Serve Management 
+		- Linux Scripts - Process Automation 
+		
+		
+	- Login to AWS Console :
+		- Dashboard :
+		
+		- Monitor the Billing - Free Tier usage
+		
+		- AWS Region 
+		
+		- AWS Service Catalog 
+			
+		- Create EC2 Linux Instance :
+		
+			- Create Linux Instance :::::
+			
+				Goto EC2 Service Dashboard 
+				
+				- Choose Launch Instance 
+				
+					-> Name 
+					-> AMI ::
+						-> Linux based AMI 
+						
+							Type of Linux Distributions :
+							
+								- Centos/RHEL	
+								- Debian/Ubuntu	**** Default
+									- Choose Ubuntu 22.04v(Stable Version) AMI. to Launch an Instance
+								- Fedora 
+								- Amazon Linux
+							
+								
+						
+					-> Instance Type 
+						t3.micro (Free Tier)
+						
+						
+					-> Key Pair 
+					
+					
+					1 VM = 750 Hrs/Month for free. 
+					
+					10 VMs = 75 Hrs/Month for free 
+				
+						
+		- Connect to Linux Instance ::::
+
+		- How to Connect to EC2 Instances :
+		
+			- EC2 Instance Connect Option 	--> Thru web browser
+			
+			- Mac/Linux User 				--> Use the Terminal to SSH Connect 
+			
+			- Window User 					--> SSH Agents 
+				- MobaXTerm: 
+				
+					-> Host Name :
+					
+						<Public_IP_Address>
+					
+					-> User Name 
+						<ubuntu>
+						
+					-> Credential :
+						<key-pair - private_key - *.pem>
+				
+				- Putty:
+				
+
+Next :
+
+	- Package Management ::::::	
+			
+				
+				
